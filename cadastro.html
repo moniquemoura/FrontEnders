@@ -43,7 +43,7 @@
                     <li><a href="index.html" class="nav-link px-2 text-white degrade">FAQs</a></li>
                 </ul>
                 <div class="text-end">
-                    <button type="button" id="btnr0" class="btn btn-outline-light me-2">Entrar</button>
+                    <a  id="btnr0" class="btn btn-outline-light me-2" href="Login/login.html">Entrar</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
     <!--CABEÇALHO-->
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-6 align-self-center m-3">
+                <div class="col-xl-6 align-self-center m-3">
                     <form class="aparencia">
                         <div class="form-row">
 
@@ -64,7 +64,7 @@
                                 <hr class="mt-1" />
                             </div>
 
-                            <div class="form-group mb-3 col-3">
+                            <div class="form-group mb-3 col-xl-3">
                                 <label for="cpf">CPF</label>
                                 <input type="text" name="cpf" id="cpf" onkeypress="$(this).mask('000.000.000-00');"
                                     class="form-control">
@@ -86,13 +86,13 @@
                                 <span class="d-none text-danger" id="emailSpan"></span>
                             </div>
                             <div class="row">
-                                <div class="form-group mb-3 col-6">
+                                <div class="form-group mb-3 col-md-6">
                                     <label for="senha">Senha</label>
                                     <input type="password" class="form-control" id="senha" name="senha"
                                   >
                                     <span class="d-none text-danger" id="senhaSpan"></span>
                                 </div>
-                                <div class="form-group mb-3 col-6">
+                                <div class="form-group mb-3 col-md-6">
                                     <label for="confirmaSenha">Confirmação de Senha</label>
                                     <input type="password" class="form-control" id="confirmaSenha" name="confirmaSenha"
                                         >
@@ -107,18 +107,18 @@
                                 <hr class="mt-1" />
                             </div>
 
-                            <div class="form-group mb-3 col-3">
+                            <div class="form-group mb-3 col-xl-3">
                                 <label for="cep">CEP</label>
                                 <input type="text" class="form-control" id="cep" name="cep"
                                     onkeypress="$(this).mask('00.000-000');" onblur="getCep();">
                                 <span class="d-none text-danger" id="cepSpan"></span>
                             </div>
                             <div class="row">
-                                <div class="form-group mb-3 col-6">
+                                <div class="form-group mb-3 col-md-6">
                                     <label for="cidade">Cidade</label>
                                     <input type="text" class="form-control" id="cidade" name="cidade">
                                 </div>
-                                <div class="form-group mb-3 col-6">
+                                <div class="form-group mb-3 col-md-6">
                                     <label for="estado">Estado</label>
                                     <input type="text" class="form-control" id="estado" name="estado">
                                 </div>
@@ -135,20 +135,20 @@
                             </div>
 
                             <div class="row mb-3">
-                                <div class="form-group mb-3 col-3">
+                                <div class="form-group mb-3 col-md-3">
                                     <label for="numero">Número</label>
                                     <input type="number" class="form-control" id="numero" name="numero">
                                 </div>
 
-                                <div class="form-group mb-3 col-9">
+                                <div class="form-group mb-3 col-md-9">
                                     <label for="complemento">Complemento</label>
                                     <input type="text" class="form-control" id="complemento" name="complemento">
                                 </div>
                             </div>
                         </div>
                         <div class="row justify-content-center">
-                            <button type="reset" class="btn btn-outline-dark btn-lg col-5 me-2">Limpar</button>
-                            <button type="submit" class="btn btn-primary btn-lg col-5 ms-2" id="submit">Cadastrar</button>
+                            <button type="reset" class="btn btn-outline-dark btn-lg col-md-5 m-2">Limpar</button>
+                            <button type="submit" class="btn btn-primary btn-lg col-md-5 m-2" id="submit">Cadastrar</button>
                         </div>
                     </form>
                 </div>
