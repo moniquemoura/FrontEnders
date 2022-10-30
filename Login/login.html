@@ -10,7 +10,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="./styleLogin.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--CABEÇALHO-->
@@ -22,15 +22,15 @@
               <use xlink:href="#bootstrap" />
             </svg>
           </a>
-          <a id="marca" class="nav-link px-2 text-white vov fade-in-down slowest" href="inserir link">
+          <a id="marca" class="nav-link px-2 text-white vov fade-in-down slowest" href="../index.html">
             <h1 class="gradiente"><span class="letra">F</span>ront<span class="letra">E</span>nders</h1>
           </a>
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="inserir link" class="nav-link px-2 text-secondary degrade">Home</a></li>
-            <li><a href="inserir link" class="nav-link px-2 text-white degrade">Nossos Planos</a></li>
-            <li><a href="inserir link" class="nav-link px-2 text-white degrade">Contato</a></li>
-            <li><a href="inserir link" class="nav-link px-2 text-white degrade">Sobre</a></li>
-            <li><a href="inserir link" class="nav-link px-2 text-white degrade">FAQs</a></li>
+            <li><a href="../index.html" class="nav-link px-2 text-white degrade">Home</a></li>
+            <li><a href="../planos/planos.html" class="nav-link px-2 text-white degrade">Nossos Planos</a></li>
+            <li><a href="../contato.html" class="nav-link px-2 text-white degrade">Contato</a></li>
+            <li><a href="../index.html#sobre" class="nav-link px-2 text-white degrade">Sobre</a></li>
+            <li><a href="../index.html#faqTest" class="nav-link px-2 text-white degrade">FAQs</a></li>
           </ul>
         </div>
       </div>
@@ -57,11 +57,17 @@
                       <div class="recuperacao">
                         <a class="forgot" href="./Forgot/forgot.html"><strong>Esqueci a Senha</strong></a>
                       </div>
-                      <button type="submit" class="btn btn-black">Entrar</button>
-                      <button type="submit" class="btn btn-secondary">Cadastrar</button>
+                      <button id="entrarBtn" onclick="clickBtn()" type="submit" class="btn btn-black">Entrar</button>
+                      <a href="../cadastro.html"><button type="submit" class="btn btn-secondary">Cadastrar</button></a>
                    </form>
                 </div>
              </div>
           </div>
+  <script>
+    function clickBtn(){
+      alert('Bem-Vindo!!!')
+      window.location.replace = 'https://moniquemoura.github.io/FrontEnders/cadastro.html';
+    }
+  </script>
 </body>
 </html>
